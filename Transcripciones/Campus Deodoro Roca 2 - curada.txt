@@ -1,0 +1,50 @@
+CAMPUS DEODORO ROCA - AUDIO 2 (curado)
+Fuente: Campus Deodoro Roca 2.m4a.txt
+Nota: se quitaron saludos y charla no técnica. Lo que está entre [corchetes] es interpretación nuestra de palabras mal transcriptas.
+
+--- Sala de máquinas / climatización ---
+
+Hay un pequeño aire acondicionado convencional, pero no se apaga.
+- ¿Cómo se llama esta sala? - Sala de máquinas.
+
+--- Segundo piso / Access points ---
+
+En el segundo piso: 16 [¿cantidad de APs, o "Wi-Fi 6"? verificar en el plano].
+Hay platos [access points] apagados y otros prendidos.
+
+--- Sectores del edificio ---
+
+- ¿El edificio, independientemente del piso, es todo sector A y sector B?
+- Sí. Este es el sector B. Y está el edificio nuevo que se está construyendo; reservamos cuatro platos [APs] para ahí.
+
+Este otro es el salón de eventos ("ventas" en la transcripción) / salón de usos múltiples: por eso hay refuerzo [de APs]. Está en el plano.
+
+En otro sector los platos [APs] se dejaron afuera, no hay refuerzo. Los cablearon por detrás / por fuera: sale un cable de red y ocupan la red, pero de afuera nomás, no adentro.
+
+--- Uplink entre switches ---
+
+- ¿Viene de planta baja por fuera?
+- El uplink ("atlín" en la transcripción) es el que sale y viene del [gabinete principal]. Ese no se puede ver porque es subterráneo.
+- El uplink es entre un switch y otro, y va por fuera.
+
+También va por bandeja. Esta fue la primera conexión que se hizo con el Wi-Fi.
+
+--- Otros gabinetes ---
+
+Acá hay otro gabinete (zona Secretaría). Este es de la parte de arriba, [Secretaría] estudiantil.
+Este es el del uplink, que es lo que se mostró en la biblioteca. Viene para acá.
+Otro Omada.
+
+--- Equipos reservados para el edificio nuevo ---
+
+- ¿Esto queda todo para el edificio [nuevo]?
+- Sí, exactamente. Cuatro: dos por piso, porque en la planta baja todavía no existen los lugares donde poner los equipos, el cable y todo. Están cambiando.
+
+--- Equipamiento de los gabinetes de piso ---
+
+- Entonces acá tienen solo switches y access points.
+- Sí, switches y access points.
+- ¿Son switches de capa 3?
+- Sí, claro, son administrables. (Está en la nota.)
+- ¿Wi-Fi 5 y 6?
+- Sí.

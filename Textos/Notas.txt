@@ -1,0 +1,45 @@
+Wifi6
+Primer piso dibujado
+(Foto) Estan distribudos en dos porque si ponen sobre el mismo salta el voltaje. Cat 6 A conectores blindados
+Ubiquiti 
+El de abajo unne, el de arriba sobre gigared corre
+Unifi arriba y abajo wifi 6 
+El de arriba esta desconectado el plato
+Planta baja 
+El de planta baja con fibra los switches.
+Switch serial de un lado y el otro lado utp que entra en el puerto sfp del switch. Acces point (plato). Ingreso agua en los platos anteriores. Del acceso a la izquierda sector b wifi6. Sector A a la derecha gigared. Como es sala de eventos satura adentro de sala de eventos, hay dos platos. Biblioteca: gabinete se conecta sfp 5 cables de red para las maquinas/PC. UPS en biblioteca. Antes se trabajaba con wifi 5 ubiquiti unify. Sector A, todo oficina, wifi5 a su vez backup, en donde hay alumnos o eventos se pone wifi 6. El decanato tiene un plato de refuerzo. La fibra viene por el camino y se conecta al nodo de odontologia y acá brinda a toda la facultad switches cisco. Gabinete principal o sala de maquinas: Tiene monitores para monitorear trabaja sobre linux. Con respecto a los cortes de luz no tienen grupo electrogeno,  los ups aguantan unos minutos. El rag tiene una javalina para la puesta tierra. La habitacion tiene refrigeracion propio
+
+
+
+Si quiere emprolijar el cableado.
+
+Vlan para docentes, otra personal y otra para estudiante. Vlan docentes y alumnos usan los de oficinas. Primer piso y segundo ocupan si docentes y estudiantes las vlan. 
+
+2do piso wifi 6 
+
+Salon de eventos del 2do piso tiene refuerzo
+
+Ocupan siempre la red de afuera pero no de adentro. 
+
+Para el edificio nuevo 4 
+2 por piso
+
+El de odontologia es subterraneo
+
+Secretaria de asuntos estudiantiles tiene otro gabinete que distribuye para todo el segundo piso
+
+Switches de capa 3 y AP wifi 5 y 6 en todo
+
+Cable utp 6 afuera exterior blindado el conector
+
+Kiosco  tiene un plato ap wifi5
+
+La fibra viene de odonto viene subterraneo, uniones entre gabinetes es por fuera.
+
+Tienen switch que no es administrable para asistencia, si se quiere administrar se baja con cable para administrar. 
+Tratan de llegar a tener velocidad 
+Le hacen testeo de velocidad los de rectorado.
+Omada se hablan entre ellos con cable tipo 6 y los otros trabajan en 5. 
+
+Planta baja tiene servidor, administracion de los ubiquiti
+

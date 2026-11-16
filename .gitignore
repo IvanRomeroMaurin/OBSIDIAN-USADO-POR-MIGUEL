@@ -1,0 +1,8 @@
+# Audios (no se suben al remoto)
+Audios/
+*.mp3
+*.m4a
+*.ogg
+*.wav
+*.opus
+*.mp4

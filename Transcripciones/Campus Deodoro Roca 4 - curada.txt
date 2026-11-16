@@ -1,0 +1,60 @@
+CAMPUS DEODORO ROCA - AUDIO 4 (curado)
+Fuente: Campus Deodoro Roca 4.m4a (transcribed on 14-Nov-2026 22-09-01).txt
+Nota: se quitaron saludos, datos personales, intercambio de contacto y charla no técnica. Lo que está entre [corchetes] es interpretación nuestra de palabras mal transcriptas.
+
+--- Redes Wi-Fi (SSIDs / VLANs) ---
+
+GigaRed: "alumnos" y "docentes", las dos VLANs con sus claves.
+En cambio, todo lo que sea Wi-Fi 6 es "gestión" e "invitado".
+A los docentes se les tiene que dar "gestión" y ahí entran.
+Esta clave se comparte en toda la UNC, entonces podés ir de una facultad a otra y entrás igual (lo mismo pasa en Campus Cabral).
+
+--- Controladora inalámbrica (WLC) ---
+
+- ¿Se maneja un WLC (wireless LAN controller) para agrupar los access points y gestionar las WLAN?
+- Creo que no. Va por software; esa parte la hace Rectorado.
+
+--- Ruteo ---
+
+- ¿El ruteo de todo se hace entonces con los switches de capa 3?
+- Sí. Y software.
+
+--- Switch no administrable / sistema de asistencia ---
+
+Acá al lado hay un equipo que es otra parte (no lo maneja el entrevistado): un switch NO administrable, que es para la asistencia en las aulas. Por distancia convendría conectar el Omada con ese, pero como no es administrable no se puede; entonces hay que bajar con el cable hasta el que sí es administrable.
+
+Los dispositivos de asistencia: son lectores para la asistencia. Viene un estudiante, pone su tarjeta de estudiante y se registra la asistencia, que impacta en un sistema [¿SIU Guaraní?]. Tienen cable y van a ese switch no administrable. Los profesores entran por [IP / aplicación] y cada uno ve lo suyo.
+
+--- Velocidades / categorías de cable ---
+
+Las interfaces de los switches mayoritariamente son Fast Ethernet / Gigabit Ethernet. Tratamos de ir siempre por la tasa más alta. Estamos tratando de llegar a 10 [Gbps] / 100. Está en el plano hasta dónde se trata de llegar.
+Por eso tenemos categoría 6 [y se menciona categoría 7].
+Nos van a hacer test de velocidad. Lo hace Rectorado, porque los equipos son de Rectorado (no los compramos nosotros, nos hicieron tipo una donación).
+
+--- Direccionamiento IP ---
+
+- Se menciona una red "28" que es de [calle] Salta, que depende de Rectorado.
+- Esta [la facultad] es una subred 10.40.50 [verificar máscara].
+
+--- Estado del cableado ---
+
+El cable de abajo es un crecimiento desordenado: viene uno de un lado y otro de otro.
+Hay pocas personas que trabajan con fibra (se menciona a Cuevas, ingeniero, y a Clen), y menos que fusionen fibra, porque el equipo para fusionar es muy caro.
+
+--- Medios de transmisión entre equipos ---
+
+- La fibra llega abajo; después, cuando viene hacia acá, pasa por cobre (cable UTP).
+- Categoría 5 en general, y categoría 6 todo lo que sea Omada. O sea: viene por fibra y todos los Omada se hablan entre ellos con cat. 6, para no degradar la velocidad. Los otros trabajan en cat. 5, lamentablemente, pero anda bastante bien.
+- El objetivo es no bajar de cierta velocidad.
+- Se habló del switch de capa 2 (el que "no" es administrable / capa 3).
+- Aclaración: "cable de cobre" = UTP (en Packet Tracer se le dice así); ellos lo nombran por categorías (cat. 5, cat. 6), porque no es lo mismo; también importa si es de exterior y los conectores.
+
+--- Equipos de repuesto / para el edificio nuevo ---
+
+Estos son los equipos que ocupamos, y acá están los que quedaron para el otro edificio. Quedan cuatro para el otro edificio (hay tres acá porque uno intentó instalarse pero hubo un problema con el cable). No terminaron la obra, por eso quedaron.
+
+--- Servidores ---
+
+- Acá [en este gabinete] no hay ningún servidor. Está el servidor de abajo.
+- ¿Qué brinda ese servidor? Administración para los [APs / controlador, "WIQWIC" en la transcripción: verificar].
+- No hay otros servidores.

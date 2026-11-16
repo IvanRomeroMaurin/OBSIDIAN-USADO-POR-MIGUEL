@@ -1,0 +1,45 @@
+CAMPUS DEODORO ROCA - AUDIO 3 (curado)
+Fuente: Campus Deodoro Roca 3.m4a.txt
+Nota: se quitaron saludos y charla no técnica. Lo que está entre [corchetes] es interpretación nuestra de palabras mal transcriptas.
+
+--- Cable que sale del gabinete de biblioteca ---
+
+Esto es lo que entraba fuera del gabinete: el switch de biblioteca.
+Se tuvo que romper la pared para que entrara. El cable [categoría] 6 entra por acá.
+Uno va para arriba: el uplink ("arling" en la transcripción) del otro [switch]. Y el otro viene de allá, por acá, tratando de protegerlo.
+
+- ¿Qué tipo de cable es?
+- Categoría 6, de exterior, con conector blindado ("humillado" en la transcripción, verificar).
+
+- ¿Qué cantidad de metros abarca antes de degradar la señal?
+- 100 metros (entre 100 y 150).
+
+--- Desde el gabinete principal ---
+
+Del gabinete principal sale un cable [cat. 6] que viene sostenido para allá, con otro plato [AP]. Le pusimos uno de los [APs] que descartamos, pero con cable 6.
+
+Y este es el principal. Van a ver que sobra fibra. Esa es la fibra que viene por este camino.
+
+--- Recorrido de la fibra desde el nodo Odontología ---
+
+La fibra viene desde Odontología. Pasa por el edificio de [Ciencias] Químicas ("química de sacta"), cruza por la playa de estacionamiento por arriba (va por fuera porque hubo una obra de construcción ahí), baja, viene subterránea por acá y sube por acá.
+
+En cualquier lugar que haya obra nos pueden cortar [la fibra].
+
+--- Unión entre gabinetes ---
+
+- ¿Y todo este cable que estamos viendo de dónde sale?
+- Del gabinete que vieron hoy adentro [gabinete principal]. Se va hasta allá.
+- O sea que la unión entre un gabinete y el otro, en este caso, va por fuera del edificio. Y de ahí también va por fuera para el otro switch.
+
+- ¿El switch que está arriba es el que no pudimos entrar a ver?
+- Sí, es un Omada ("ahumada"). Lo mismo que vieron en biblioteca, pero allá arriba.
+
+--- VLANs: asignación por puerto ---
+
+- ¿Qué switch maneja cada VLAN?
+- No es por switch, es por puerto. Tenés un switch y decís: del puerto tal al puerto tal le asignás tal VLAN, y del otro puerto a tal otro puerto, otra VLAN. Se programa por puerto.
+
+--- Identificación de APs y diagnóstico ---
+
+Cada plato [AP] tiene nombre. Cuando hacen el chequeo por el software de administración, dice por ejemplo "el plato de prensa está caído". Luego se va y se mira el cable de ahí, a dónde va, para ver si hubo un problema con el puerto o con el plato. Por ejemplo, si le llovió (como le pasó a otro), muere el plato pero el cable no tiene problema, entonces se sabe que no hay que reemplazar el cable.

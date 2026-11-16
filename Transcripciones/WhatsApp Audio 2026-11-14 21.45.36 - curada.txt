@@ -1,0 +1,17 @@
+AUDIO WHATSAPP 2026-11-14 21.45.36 (curado)
+Fuente: WhatsApp Audio 2026-11-14 at 21.45.36 (transcribed on 14-Nov-2026 22-10-58).txt
+Nota: se quitaron frases no técnicas. Lo que está entre [corchetes] es interpretación nuestra de palabras mal transcriptas.
+
+--- Gabinete con dos switches ---
+
+- ¿El de arriba está desconectado?
+- Está desconectado el plato [patch panel / AP: verificar]. O sea que el de abajo está trabajando. Viene la fibra y conecta.
+- Los dos equipos son switches. El de abajo recibe la fibra (tiene módulo de fibra) y después conecta lo demás.
+
+--- Conversión fibra -> UTP ---
+
+El switch tiene una parte de fibra [puerto SFP, "serial" en la transcripción] y otra parte por UTP. Lo ideal sería conectar un módulo de fibra con otro módulo de fibra, así no se pierde velocidad, pero no tenemos. Entonces hay un módulo de fibra abajo y después se sigue con cable de categoría [UTP].
+
+--- Equipo nuevo vs anterior ---
+
+Esta es la nueva [instalación] que viene con categoría 6, y acá está la anterior.

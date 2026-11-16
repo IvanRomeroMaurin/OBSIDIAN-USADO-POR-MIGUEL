@@ -1,0 +1,75 @@
+CAMPUS DEODORO ROCA - AUDIO 1 (curado)
+Fuente: Campus Deodoro Roca.m4a.txt
+Nota: se quitaron saludos, permisos y charla no técnica. Lo que está entre [corchetes] es interpretación nuestra de palabras mal transcriptas.
+
+--- Transición Wi-Fi 6 -> Wi-Fi 5 / Sector A ---
+
+Ahora vamos a ver cómo pasamos de [Wi-Fi] 6 a la anterior que trabajaba con [Wi-Fi] 5, que son Uniquity Unified [Ubiquiti UniFi], al sector A.
+
+Este sería el sector A, todas estas oficinas. Como el director quería darle el Wi-Fi bueno a los estudiantes, para las oficinas se dejó la versión anterior, y para todo donde haya alumnos o eventos se pone el Wi-Fi 6.
+
+Va por las bandejas.
+
+--- Decanato ---
+
+Acá está el decanato. Se puso un plato [access point] de refuerzo más para allá, porque con dos paredes ya caía la conexión. Tiene un plato adicional, adentro (no se puede ver).
+
+--- Gabinete principal ---
+
+Por ahí viene la fibra. ¿Ves el naranja? Ahí está el módulo de fibra. Y tenés la parte que va cableado de red, y todo lo que sea Omada es para el cableado Wi-Fi. Este es el gabinete principal. Todavía falta lo de Telco [Telecom], que le van a agregar más.
+
+Este es el servidor donde se configura el modo remoto cuando hay problemas. Debería estar prendido. Y después los otros son cámaras.
+
+--- Recorrido de la fibra / dependencia del nodo Odontología ---
+
+Este es el gabinete principal. La fibra viene por el camino donde camina la gente, en forma subterránea. Después sube y se conecta a Odontología. Nosotros dependemos del nodo Odontología. Cuando viene una obra de construcción (playa de estacionamiento, agua), por ahí cortan la fibra y quedamos afuera.
+
+- ¿Esto viene de la calle y acá se deriva todo?
+- No, no es de la calle. Es de dentro del campus. De la calle viene el Telco.
+- ¿Pero esto le brinda todo para adentro?
+- Sí, todo, alimenta toda la facultad.
+
+--- Equipos en el gabinete principal ---
+
+- ¿Y acá qué dispositivos tiene?
+- Tenés switches Cisco, tenés el Unify [UniFi] para la parte de GigaRed. O sea que GigaRed también está viniendo por acá. Vas a ver dos de fibra (lo naranja): uno va a un equipo que es el de GigaRed y el otro va al otro equipo que es el nuestro.
+- Los de categoría 6 son los nuestros. Los de categoría 5 son los que trabajan con GigaRed. O sea, acá tenemos las dos cosas.
+- Si hay un problema con el de acá, queda afuera todo.
+
+--- Monitoreo ---
+
+Los monitores sirven para configurar si cae algo, porque a veces un puerto se desconfigura, o para ver qué plato [AP] está caído.
+
+- ¿Tiene algún sistema para monitorear todo?
+- Sí. La interfaz administradora no sé cómo se llama, pero trabaja sobre Linux. Eso es para la parte de GigaRed. La otra, en realidad, va por Rectorado.
+
+--- Energía / cortes ---
+
+- ¿Tienen generador para los cortes?
+- No tenemos [grupo electrógeno]. Aguantan unos minutos [con las UPS]. Cuando hay un evento muy importante, se alquila.
+
+Tenemos una UPS ("VSA" en la transcripción) Tower, que es de doble conversión online, o sea que aguanta mejor los cortes. Y hay otra UPS más.
+
+--- Puesta a tierra ---
+
+Tenemos la jabalina ("cabalina" en la transcripción), que es la protección de puesta a tierra. Va por ahí y va a tierra. Esas son las normas.
+
+--- Estado del cableado ---
+
+Nos está faltando prolijar. Los cables están medio mal. Lo que vamos a hacer es, de ese [rack/gabinete] que es muy grande, separar en dos, poner uno por acá y prolijar todo el cableado.
+
+Acá están todos los switches.
+
+--- VLANs ---
+
+Se pone una VLAN para estudiantes, una para docentes y otra para el personal. En general te dicen "alumno" y "docente", y "alumno" le dan al personal también. Pero se separa por equipos [por switch/puerto].
+
+- ¿Acá abajo [planta baja] hay VLAN de docente?
+- No, porque no hay docentes acá. Este piso es la parte de oficinas.
+- ¿Hay VLAN para las oficinas?
+- Hay dos VLAN: una que es la de "alumno" y otra "docente", pero en realidad las ocupa la gente de oficina. No hay docentes ni alumnos. Quedó así de antes, de cuando era todo GigaRed.
+- Primer y segundo piso están separados también entre docente y estudiante, y ahí sí los ocupan realmente docentes y estudiantes.
+
+--- Climatización ---
+
+Dentro de la sala del gabinete principal hace fresco (se conserva la temperatura).
