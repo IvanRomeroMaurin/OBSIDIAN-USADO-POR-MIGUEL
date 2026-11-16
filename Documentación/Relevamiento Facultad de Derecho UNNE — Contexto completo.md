@@ -172,7 +172,7 @@ Platos que no están en los planos o son refuerzos:
 - **Decanato:** un plato de refuerzo, porque con dos paredes la señal ya se cae. Hay otro adentro que no se pudo ver.
 - **SUM / salón de eventos del segundo piso:** refuerzo por la cantidad de gente en eventos.
 - **Bar / kiosco:** un plato WiFi 5; en el plano hay una línea a mano desde el Rack Principal hasta el bar.
-- **Exterior, cerca del gabinete principal:** un plato viejo de los descartados, pero conectado con cable categoría 6.
+- **Cerca del gabinete principal (interior):** un plato viejo de los descartados, pero conectado con cable categoría 6.
 - **Una sala del segundo piso:** el plato quedó afuera; "ocupan la red, pero de afuera nomás, no adentro".
 - **Edificio nuevo:** 4 reservados, 2 por piso.
 
@@ -180,7 +180,7 @@ Datos de operación:
 
 - Cada plato tiene nombre en el software de administración (ejemplo que da: "el plato de prensa está caído"). Eso permite ir directo al cable y al puerto.
 - En el segundo piso se vieron platos apagados y otros prendidos (los prendidos muestran una luz azul; fotos 0079, 0125, 0133, 0164, 0171).
-- Un plato Ubiquiti anterior murió porque le entró agua; el cable quedó sano (foto 0117). Otro cuelga de su cable en un alero exterior (foto 0114).
+- Un plato Ubiquiti anterior murió porque le entró agua; el cable quedó sano (foto 0117). Otro cuelga de su cable (foto 0114). Todos los AP son de interior: el grupo confirmó que no hay AP exteriores.
 - La primera conexión WiFi que se hizo en el edificio es la del sector que se muestra en el audio 2, tendida por bandeja.
 
 Una inconsistencia de los planos: los círculos de los AP están rotulados "Ubiquiti" aunque el proyecto es de WiFi 6 y el rack dice "Omada". En el stock fotografiado los AP nuevos son TP-Link de montaje en techo.
@@ -326,7 +326,7 @@ El problema más grave es la falta de redundancia: una sola fibra, un solo gabin
 | Cableado desordenado en el rack principal | Fotos 0126, 0134, 0145; ella misma lo reconoce | Prolijar, peinar y etiquetar (ya planeado) |
 | Uplinks de cobre entre gabinetes por falta de módulos de fibra | Audio de WhatsApp: "lo ideal sería módulo con módulo, pero no tenemos" | Comprar módulos SFP y tender fibra entre gabinetes |
 | Cables entre gabinetes por la fachada, a la intemperie | Fotos 0118, 0131, 0162, 0163, 0167 | Canalizar en caño o bandeja exterior cerrada |
-| AP dañados por agua | Foto 0117, audio 3 | AP de exterior o cajas estancas donde haya humedad |
+| AP dañados por agua | Foto 0117, audio 3 | Reparar las filtraciones y reubicar o proteger los AP interiores expuestos a humedad |
 | Red de oficinas en categoría 5 y WiFi 5 | Audios 1 y 4 | Completar la migración a categoría 6 y WiFi 6 |
 | VLAN heredadas con nombres que no reflejan el uso real | Audio 1: "es mentira, no hay docentes ni alumnos" | Redefinir y renombrar las VLAN de planta baja |
 | Gestión repartida entre facultad y Rectorado | Audio 4 | Documentar quién administra qué y dar a la facultad una vista de monitoreo de los Omada |
@@ -349,7 +349,7 @@ Las 58 fotos agrupadas por tema, con el número final del nombre de archivo (IMG
 | Sala de máquinas | 0148, 0151, 0156, 0157, 0169 | Monitores, PC/servidor, rack visto desde la puerta, cable de puesta a tierra | Figura de monitoreo y puesta a tierra |
 | Gabinete de piso con UPS | 0115, 0122, 0150 | Gabinete Gabitel con puerta de vidrio y UPS arriba (probable biblioteca) | Figura de gabinete secundario y UPS |
 | AP de techo | 0078, 0079, 0125, 0132, 0133, 0136, 0158, 0164, 0171 | Platos en pasillos, varios con luz azul encendida | Figura de access points |
-| AP dañados | 0114, 0117 | Plato colgando en un alero; plato Ubiquiti manchado, en la mano | Figura de punto débil |
+| AP dañados | 0114, 0117 | Plato colgando de su cable; plato Ubiquiti manchado, en la mano | Figura de punto débil |
 | Cable por exterior | 0112, 0118, 0131, 0155, 0162, 0163, 0167, 0170 | Recorrido del UTP por fachada, caja de paso, entrada por la pared | Figura de enlace entre gabinetes |
 | Stock | 0135, 0166 | Cajas TP-Link de switches y AP | Figura de equipamiento nuevo |
 | Asistencia | 0063, 0111, 0129, 0152 | Lector rojo en la puerta de las aulas 13, 14 y 30 | Figura de sistema de asistencia |
